@@ -9,9 +9,9 @@ const handleApiCall=(req, res, Clarifai)=>{
 
     //Configuring clarifai api
     const app = new Clarifai.App({
-        apiKey: '00ed2940b25f48cf85e2c32f37c2dfcb'
+        apiKey: 'API KEY HERE'
         });
-        app.models.predict("a403429f2ddf4b49b307e318f00e528b", input)
+        app.models.predict("API KEY HERE", input)
         .then(data=> res.json(data)).catch(err=> res.status(400).json('API call error'))
 }
 
