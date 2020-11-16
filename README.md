@@ -1,5 +1,5 @@
 # Face-Finder-
-Identify faces in pictures using claifia API 
+Identify faces in pictures using clarifai API 
 
 HOW IT WORKS
 Enter a image URL containing a face the 
